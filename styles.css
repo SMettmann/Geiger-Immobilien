@@ -194,9 +194,7 @@ h3{font-weight:400;letter-spacing:-.025em}
 .hospitality-grid>div:first-child>p:not(.eyebrow){max-width:820px;color:#676861;font-size:14px;line-height:1.8}
 .hospitality-panel{
   min-height:260px;
-  background:
-    linear-gradient(135deg,rgba(218,213,203,.95),rgba(245,242,236,.98)),
-    url("assets/geiger-building-hq.webp");
+  background-image:url("assets/geiger-hospitality-sofa.jpg");
   background-size:cover;
   background-position:center;
   display:flex;justify-content:flex-end;
