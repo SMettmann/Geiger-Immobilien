@@ -733,3 +733,38 @@ h1 em,h2 em{color:#837769}
     padding:28px 24px;
   }
 }
+
+
+/* Final header brand lockup */
+.site-header{
+  height:104px;
+  grid-template-columns:180px 1fr 190px;
+}
+.brand{
+  height:104px;
+  display:flex;
+  align-items:center;
+}
+.brand-image{
+  width:88px !important;
+  height:88px !important;
+  object-fit:contain;
+  object-position:center;
+  flex:0 0 auto;
+}
+
+@media(max-width:980px){
+  .site-header{
+    height:86px;
+  }
+  .brand{
+    height:86px;
+  }
+  .brand-image{
+    width:70px !important;
+    height:70px !important;
+  }
+  .nav{
+    top:86px;
+  }
+}
