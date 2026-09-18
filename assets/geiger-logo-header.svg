@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 170" role="img" aria-labelledby="title desc">
+  <title id="title">Geiger Immobilien</title>
+  <desc id="desc">Geiger Immobilien Logo</desc>
+  <g fill="none" stroke="#2f2a26" stroke-width="7" stroke-linecap="square" stroke-linejoin="miter">
+    <rect x="10" y="10" width="145" height="145"/>
+    <path d="M46 44h55v24H71v54h56V98H95"/>
+    <path d="M118 44h21v82h-21"/>
+  </g>
+  <g fill="#2f2a26" font-family="Inter, Arial, Helvetica, sans-serif">
+    <text x="190" y="79" font-size="67" font-weight="400" letter-spacing="7">GEIGER</text>
+    <text x="194" y="132" font-size="32" font-weight="300" letter-spacing="11">IMMOBILIEN</text>
+  </g>
+</svg>
