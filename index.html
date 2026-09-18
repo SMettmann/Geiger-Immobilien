@@ -7,108 +7,98 @@
   <title>Geiger Immobilien | Freienbach</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#start" aria-label="Geiger Immobilien – Startseite">
-      <img src="assets/geiger-logo-header.svg" alt="Geiger Immobilien" class="brand-logo">
-    </a>
+    <div class="header-inner page">
+      <a class="brand" href="#start" aria-label="Geiger Immobilien – Startseite">
+        <img src="assets/geiger-logo.png" alt="Geiger Immobilien">
+      </a>
 
-    <button class="menu-toggle" type="button" aria-label="Navigation öffnen" aria-expanded="false">
-      <span></span><span></span>
-    </button>
+      <button class="menu-toggle" type="button" aria-label="Navigation öffnen" aria-expanded="false">
+        <span></span><span></span>
+      </button>
 
-    <nav class="nav" aria-label="Hauptnavigation">
-      <a href="#ueber-uns">Über uns</a>
-      <a href="#leistungen">Leistungen</a>
-      <a href="#eigentuermer">Für Eigentümer</a>
-      <a href="#moeglichkeiten">Möglichkeiten</a>
-      <a href="#kontakt">Kontakt</a>
-    </nav>
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a href="#start">Startseite</a>
+        <a href="#ueber-uns">Über uns</a>
+        <a href="#leistungen">Leistungen</a>
+        <a href="#eigentuermer">Für Eigentümer</a>
+        <a href="#moeglichkeiten">Möglichkeiten</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
 
-    <a class="domain-link" href="https://geiger-immobilien.ch">geiger-immobilien.ch</a>
+      <a class="domain" href="https://geiger-immobilien.ch">geiger-immobilien.ch</a>
+    </div>
   </header>
 
   <main>
     <section class="hero" id="start">
-      <div class="hero-image" aria-hidden="true">
-        <img src="assets/geiger-building-hq.webp" alt="">
-      </div>
-      <div class="hero-shade"></div>
-      <div class="page hero-inner">
-        <p class="eyebrow">Geiger Immobilien · Schweiz</p>
-        <h1>Immobilien in guten Händen.<br><span>Seit Generationen.</span></h1>
-        <p class="hero-subline">Familienwerte. Immobilienkompetenz. Persönliche Verantwortung.</p>
+      <img class="hero-image" src="assets/geiger-building-hq.webp" alt="Immobilie von Geiger Immobilien">
+      <div class="hero-overlay"></div>
+      <div class="page hero-content">
+        <p class="eyebrow">Willkommen bei Geiger Immobilien</p>
+        <h1>Immobilien in guten<br>Händen. Seit Generationen.</h1>
+        <p class="hero-subline">Familienwerte. Immobilienkompetenz.<br>Persönliche Verantwortung.</p>
         <p class="hero-copy">Wir bewirtschaften und vermieten Immobilien mit Erfahrung, persönlichem Engagement und einem klaren Anspruch an Qualität – von der Kurzzeitvermietung bis zur langfristigen Bewirtschaftung.</p>
         <div class="hero-actions">
-          <a class="btn btn-dark" href="mailto:info@geigerimmobilien.ch?subject=Erstgespr%C3%A4ch%20Geiger%20Immobilien">Gespräch vereinbaren</a>
-          <a class="btn btn-light" href="mailto:info@geigerimmobilien.ch?subject=Immobilienanfrage">Immobilie anfragen</a>
+          <a class="button button-dark" href="mailto:info@geigerimmobilien.ch?subject=Gespr%C3%A4ch%20vereinbaren">Gespräch vereinbaren <span>→</span></a>
+          <a class="button button-light" href="mailto:info@geigerimmobilien.ch?subject=Immobilie%20anfragen">Immobilie anfragen</a>
+        </div>
+      </div>
+      <p class="hero-note">Regional<br>verwurzelt<br>langfristig gedacht</p>
+    </section>
+
+    <section class="about section" id="ueber-uns">
+      <div class="page about-grid">
+        <div class="about-copy">
+          <p class="eyebrow">Über uns</p>
+          <h2>Unsere Familie. Unsere Werte.<br>Unsere Immobilienkompetenz.</h2>
+          <p>Wir sind ein inhabergeführtes Familienunternehmen und beschäftigen uns seit Generationen mit Immobilien. Unsere Erfahrung reicht von Architektur über den An- und Verkauf bis hin zur Bewirtschaftung, zum Management und zur Hospitality.</p>
+          <p>Dabei steht für uns stets ein verantwortungsvoller und nachhaltiger Betrieb im Mittelpunkt.</p>
+          <strong class="highlight">Werterhalt sichern. Betrieb professionalisieren. Menschen begeistern.</strong>
+        </div>
+
+        <div class="about-visual">
+          <img src="assets/geiger-building-hq.webp" alt="Gebäudedetail von Geiger Immobilien">
+          <div class="about-caption">
+            <span></span>
+            <p>Tradition<br>trifft<br>Zukunft</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section page" id="ueber-uns">
-      <div class="section-label"><span>01</span><p>Über uns</p></div>
-      <div class="section-body">
-        <p class="eyebrow">Inhabergeführtes Familienunternehmen</p>
-        <h2>Unsere Familie. Unsere Werte.<br>Unsere Immobilienkompetenz.</h2>
-        <div class="copy-columns">
-          <p>Wir sind ein inhabergeführtes Familienunternehmen, das Immobilien seit Generationen nicht nur besitzt, sondern aktiv bewirtschaftet. Unsere Erfahrung umfasst Architektur, An- und Verkauf, Bewirtschaftung, Management und Hospitality.</p>
-          <p>Dieses Zusammenspiel bildet das Fundament unserer heutigen Tätigkeit. Wir verbinden Immobilienkompetenz mit einem hohen Anspruch an Service, Qualität und einen verantwortungsvollen Betrieb.</p>
-        </div>
-        <p class="lead-copy">Wir glauben, dass der Wert einer Immobilie nicht allein von ihrer Lage oder Ausstattung bestimmt wird. Pflege, Kommunikation, zuverlässige Abläufe und ein professioneller Umgang mit Menschen sind ebenso entscheidend.</p>
-        <div class="statement-row">
-          <span>Werterhalt sichern.</span>
-          <span>Betrieb professionalisieren.</span>
-          <span>Menschen begeistern.</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="section services" id="leistungen">
+    <section class="services section" id="leistungen">
       <div class="page">
-        <div class="section-label"><span>02</span><p>Leistungen</p></div>
-        <div class="section-body section-intro">
-          <p class="eyebrow">Was wir übernehmen</p>
-          <h2>Unsere Leistungen im Überblick.</h2>
-        </div>
+        <p class="eyebrow">Leistungen</p>
+        <h2>Unsere Leistungen im Überblick.</h2>
 
         <div class="service-grid">
           <article class="service-card">
-            <div class="card-top"><span>01</span><span class="mini-icon">↗</span></div>
+            <div class="round-icon">◇</div>
             <h3>Kurzzeitvermietung</h3>
-            <p>Wir übernehmen die professionelle Kurzzeitvermietung Ihrer Immobilie von A bis Z. Von Positionierung und Inseratserstellung über Preismanagement, Gästekommunikation und Check-in bis hin zu Reinigung, Kontrolle und laufender Betreuung.</p>
-            <details>
-              <summary>Leistungsumfang</summary>
-              <p>Unser Anspruch ist ein reibungsloser Betrieb, zufriedene Gäste und ein nachhaltiger Werterhalt. Auf Wunsch prüfen wir auch langfristige Mietmodelle und führen den gesamten operativen Kurzzeitbetrieb eigenständig.</p>
-            </details>
+            <p>Wir übernehmen die vollständige Abwicklung – von der Positionierung und Inseratserstellung über Preismanagement und Gästekommunikation bis hin zu Check-in, Reinigung und laufender Betreuung.</p>
           </article>
 
           <article class="service-card">
-            <div class="card-top"><span>02</span><span class="mini-icon">↗</span></div>
+            <div class="round-icon">⌂</div>
             <h3>Langzeitvermietung</h3>
-            <p>Wir übernehmen die professionelle Bewirtschaftung und Vermietung Ihrer Immobilie langfristig und zuverlässig – von der Vermarktung und Mieterauswahl bis zur laufenden Betreuung.</p>
-            <details>
-              <summary>Leistungsumfang</summary>
-              <p>Unser Fokus liegt auf stabilen Mietverhältnissen, klaren Abläufen und nachhaltigem Werterhalt. Ob einzelne Wohnung, Mehrfamilienhaus oder Portfolio: Wir betreuen jede Immobilie individuell und sorgfältig.</p>
-            </details>
-          </article>
-
-          <article class="service-card accent-card">
-            <div class="card-top"><span>03</span><span class="mini-icon">↗</span></div>
-            <h3>Firmenunterkünfte</h3>
-            <p>Wir schaffen flexible und hochwertige Wohnlösungen für Unternehmen, deren Mitarbeitende, Projektteams oder Gäste temporär eine Unterkunft benötigen.</p>
-            <p>Wir kümmern uns um die passende Immobilie, professionelle Ausstattung und operative Betreuung – persönlich betreut und auf die jeweilige Aufenthaltsdauer abgestimmt.</p>
-            <a class="inline-link" href="mailto:info@geigerimmobilien.ch?subject=Firmenl%C3%B6sung%20anfragen">Firmenlösung anfragen</a>
+            <p>Wir kümmern uns um Vermarktung, Auswahl geeigneter Mietinteressenten, Besichtigungen, Vertragsabwicklung, Kommunikation und die laufende Betreuung.</p>
           </article>
 
           <article class="service-card">
-            <div class="card-top"><span>04</span><span class="mini-icon">↗</span></div>
+            <div class="round-icon">◎</div>
+            <h3>Firmenunterkünfte</h3>
+            <p>Flexible, hochwertige Wohnlösungen für Unternehmen, Mitarbeitende, Projektteams oder Gäste – persönlich betreut und auf die Aufenthaltsdauer abgestimmt.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="round-icon">✣</div>
             <h3>Immobilienmanagement</h3>
-            <p>Wir verbinden operative Immobilienbewirtschaftung mit persönlicher Betreuung. Je nach Bedarf übernehmen wir einzelne Aufgaben oder die ganzheitliche Betreuung einer Immobilie.</p>
-            <ul class="plain-list">
+            <ul>
               <li>Vermietung und Vermarktung</li>
               <li>Kommunikation mit Mietern und Gästen</li>
               <li>Reinigung, Pflege und Objektkontrolle</li>
@@ -121,111 +111,162 @@
       </div>
     </section>
 
-    <section class="section page approach">
-      <div class="section-label"><span>03</span><p>Unser Ansatz</p></div>
-      <div class="section-body">
-        <p class="eyebrow">Immobilien ganzheitlich denken</p>
-        <h2>Wir denken Immobilien ganzheitlich.</h2>
-        <p class="lead-copy">Eine Immobilie funktioniert langfristig dann, wenn viele Details zusammenspielen. Deshalb verbinden wir Immobilienwissen, Organisation und Hospitality. Wir schaffen klare Prozesse, kümmern uns um die operative Umsetzung und behalten gleichzeitig den Werterhalt im Blick.</p>
-        <div class="values">
-          <article><span>01</span><h3>Persönlich</h3><p>Direkte Kommunikation und kurze Wege.</p></article>
-          <article><span>02</span><h3>Professionell</h3><p>Klare Prozesse, zuverlässige Abläufe und hohe Qualitätsstandards.</p></article>
-          <article><span>03</span><h3>Verantwortungsvoll</h3><p>Wir behandeln Immobilien mit Sorgfalt und denken langfristig.</p></article>
+    <section class="approach section">
+      <div class="page approach-grid">
+        <div class="approach-image">
+          <img src="assets/geiger-building-hq.webp" alt="Architekturdetail einer Immobilie">
+        </div>
+
+        <div class="approach-content">
+          <p class="eyebrow">Unser Ansatz</p>
+          <h2>Wir denken Immobilien ganzheitlich.</h2>
+          <p class="intro-copy">Wir verbinden fundiertes Immobilienwissen mit professioneller Organisation und gelebter Hospitality. So entstehen Lösungen, die für Eigentümer, Mieter und Gäste langfristig überzeugen.</p>
+
+          <div class="values-grid">
+            <article>
+              <span class="value-icon">♙</span>
+              <h3>Persönlich</h3>
+              <p>Direkte Kommunikation und kurze Wege.</p>
+            </article>
+            <article>
+              <span class="value-icon">▥</span>
+              <h3>Professionell</h3>
+              <p>Klare Prozesse, zuverlässige Abläufe und hohe Qualitätsstandards.</p>
+            </article>
+            <article>
+              <span class="value-icon">◒</span>
+              <h3>Verantwortungsvoll</h3>
+              <p>Wir behandeln Immobilien mit Sorgfalt und denken langfristig.</p>
+            </article>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="owners" id="eigentuermer">
+    <section class="owners section" id="eigentuermer">
       <div class="page owners-grid">
         <div>
           <p class="eyebrow">Für Eigentümer</p>
-          <h2>Sie besitzen.<br>Wir kümmern uns um den Betrieb.</h2>
+          <h2>Sie besitzen. Wir kümmern uns um den Betrieb.</h2>
+          <p>Als Eigentümer profitieren Sie von unserer Erfahrung, unserem Engagement und einer zuverlässigen, professionellen Bewirtschaftung. Wir schaffen Wert – heute und morgen.</p>
         </div>
-        <div class="owners-copy">
-          <p>Eigentümer sollen sich auf ihr Eigentum verlassen können, ohne sich täglich mit Vermietung, Gästen, Mietern, Reinigung, Unterhalt und organisatorischen Details beschäftigen zu müssen.</p>
-          <p>Wir übernehmen die Aufgaben, die im laufenden Betrieb anfallen, koordinieren die relevanten Schnittstellen und stehen als persönliche Ansprechperson zur Verfügung.</p>
-          <ul class="benefit-list">
-            <li>Entlastung im Tagesgeschäft</li>
-            <li>Persönliche Betreuung</li>
-            <li>Professionelle Vermietung</li>
-            <li>Klare Kommunikation</li>
-            <li>Sorgfältiger Umgang mit der Immobilie</li>
-            <li>Flexible Lösungen je nach Objekt und Vermietungsmodell</li>
-          </ul>
-        </div>
-      </div>
-    </section>
 
-    <section class="section page process">
-      <div class="section-label"><span>04</span><p>Unser Prozess</p></div>
-      <div class="section-body">
-        <p class="eyebrow">Von der Analyse bis zum laufenden Betrieb</p>
-        <h2>In fünf Schritten zur passenden Lösung.</h2>
-        <ol class="process-list">
-          <li><span>01</span><div><h3>Analyse</h3><p>Wir lernen Ihre Immobilie, Ihre Ziele und die Rahmenbedingungen kennen.</p></div></li>
-          <li><span>02</span><div><h3>Konzept</h3><p>Wir definieren das passende Vermietungs- und Betreuungskonzept.</p></div></li>
-          <li><span>03</span><div><h3>Vorbereitung</h3><p>Positionierung, Ausstattung, Vermarktung und operative Abläufe werden vorbereitet.</p></div></li>
-          <li><span>04</span><div><h3>Betrieb</h3><p>Wir übernehmen laufende Vermietung, Kommunikation, Betreuung und Koordination.</p></div></li>
-          <li><span>05</span><div><h3>Betreuung &amp; Optimierung</h3><p>Wir behalten die Immobilie im Blick und optimieren Abläufe laufend.</p></div></li>
+        <ol class="owner-list">
+          <li><span>01</span><p>Entlastung im Tagesgeschäft</p></li>
+          <li><span>02</span><p>Persönliche Betreuung</p></li>
+          <li><span>03</span><p>Professionelle Vermietung</p></li>
+          <li><span>04</span><p>Klare Kommunikation</p></li>
+          <li><span>05</span><p>Sorgfältiger Umgang mit der Immobilie</p></li>
+          <li><span>06</span><p>Flexible Lösungen je nach Objekt und Vermietungsmodell</p></li>
         </ol>
       </div>
     </section>
 
-    <section class="hospitality">
+    <section class="process section">
+      <div class="page">
+        <p class="eyebrow">Unser Prozess</p>
+        <h2>In fünf Schritten zur optimalen Lösung.</h2>
+
+        <div class="process-grid">
+          <article>
+            <span class="process-no">01</span>
+            <h3>Analyse</h3>
+            <p>Wir lernen Ihre Immobilie und Ihre Ziele kennen.</p>
+          </article>
+          <article>
+            <span class="process-no">02</span>
+            <h3>Konzept</h3>
+            <p>Wir entwickeln die passende Strategie und das optimale Vermietungsmodell.</p>
+          </article>
+          <article>
+            <span class="process-no">03</span>
+            <h3>Vorbereitung</h3>
+            <p>Wir bereiten alles vor – von der Vermarktung bis zu den Abläufen.</p>
+          </article>
+          <article>
+            <span class="process-no">04</span>
+            <h3>Betrieb</h3>
+            <p>Wir übernehmen die operative Umsetzung und sorgen für einen reibungslosen Ablauf.</p>
+          </article>
+          <article>
+            <span class="process-no">05</span>
+            <h3>Betreuung &amp; Optimierung</h3>
+            <p>Wir bleiben dran, optimieren laufend und sichern langfristigen Erfolg.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="hospitality section">
       <div class="page hospitality-grid">
         <div>
           <p class="eyebrow">Hospitality</p>
           <h2>Ein Zuhause soll mehr sein als vier Wände.</h2>
+          <p>Wir glauben, dass echte Gastfreundschaft den Unterschied macht. Funktionalität, Sauberkeit, Qualität und persönliche Kommunikation sind für uns selbstverständlich. Mit Liebe zum Detail schaffen wir Wohnlösungen, in denen sich Menschen wohlfühlen – ob für wenige Tage oder viele Jahre.</p>
         </div>
-        <div>
-          <p>Unsere Erfahrung im Hospitality-Bereich zeigt uns täglich, worauf es bei einem professionellen Aufenthalt ankommt: Funktionalität, Sauberkeit, Qualität, persönliche Kommunikation und Liebe zum Detail.</p>
-          <p>Unser Anspruch gilt dabei nicht nur unseren Gästen. Auch Eigentümer sollen spüren, dass ihre Immobilie in verantwortungsvollen Händen ist.</p>
+
+        <div class="hospitality-panel">
+          <div class="hospitality-detail">
+            <span></span>
+            <p>Mehr<br>als<br>Wohnraum</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section page options" id="moeglichkeiten">
-      <div class="section-label"><span>05</span><p>Möglichkeiten</p></div>
-      <div class="section-body section-intro">
-        <p class="eyebrow">Je nach Immobilie und Zielsetzung</p>
-        <h2>Welche Lösung passt zu Ihrer Immobilie?</h2>
-        <p class="muted">Nicht jede Immobilie braucht dasselbe Modell. Wir betrachten Objekt, Standort und Zielsetzung und wählen daraus den passenden Ansatz.</p>
-      </div>
+    <section class="possibilities section" id="moeglichkeiten">
+      <div class="page">
+        <div class="possibility-head">
+          <div>
+            <p class="eyebrow">Möglichkeiten</p>
+            <h2>Welche Lösung passt zu Ihrer Immobilie?</h2>
+          </div>
+          <p>Je nach Objekt, Standort und Zielsetzung entwickeln wir das passende Vermietungs- und Betreuungskonzept.</p>
+        </div>
 
-      <div class="option-grid">
-        <article class="option-card">
-          <span class="option-no">01</span>
-          <div class="option-symbol">⌂</div>
-          <h3>Kurzzeitvermietung</h3>
-          <p>Flexible Vermietung für Tage, Wochen oder Monate – mit professioneller Positionierung, Gästekommunikation und operativer Betreuung.</p>
-        </article>
-        <article class="option-card">
-          <span class="option-no">02</span>
-          <div class="option-symbol">—</div>
-          <h3>Langzeitvermietung</h3>
-          <p>Nachhaltige Vermietung mit stabilen Mietverhältnissen, klaren Abläufen und persönlicher Betreuung.</p>
-        </article>
-        <article class="option-card">
-          <span class="option-no">03</span>
-          <div class="option-symbol">◇</div>
-          <h3>Firmenunterkünfte</h3>
-          <p>Wohnlösungen für Unternehmen, Mitarbeitende, Projektteams oder Gäste auf Zeit – flexibel und professionell organisiert.</p>
-        </article>
-        <article class="option-card">
-          <span class="option-no">04</span>
-          <div class="option-symbol">○</div>
-          <h3>Immobilienmanagement</h3>
-          <p>Ganzheitliche Betreuung mit Fokus auf Werterhalt, Kommunikation, Pflege und einen zuverlässigen laufenden Betrieb.</p>
-        </article>
+        <div class="possibility-grid">
+          <article class="possibility-card">
+            <span>01</span>
+            <div class="possibility-icon">◇</div>
+            <h3>Kurzzeitvermietung</h3>
+            <p>Flexible Vermietung für Tage, Wochen oder Monate – inklusive Betreuung und operativer Abwicklung.</p>
+          </article>
+
+          <article class="possibility-card">
+            <span>02</span>
+            <div class="possibility-icon">⌂</div>
+            <h3>Langzeitvermietung</h3>
+            <p>Nachhaltige Vermietung mit stabilen Mietverhältnissen und professioneller Begleitung.</p>
+          </article>
+
+          <article class="possibility-card">
+            <span>03</span>
+            <div class="possibility-icon">◎</div>
+            <h3>Firmenunterkünfte</h3>
+            <p>Wohnlösungen für Unternehmen, Mitarbeitende, Projektteams oder Gäste auf Zeit.</p>
+          </article>
+
+          <article class="possibility-card">
+            <span>04</span>
+            <div class="possibility-icon">✣</div>
+            <h3>Immobilienmanagement</h3>
+            <p>Ganzheitliche Betreuung mit Fokus auf Werterhalt, Kommunikation und professionellen Betrieb.</p>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section class="faq">
+    <section class="faq section">
       <div class="page faq-grid">
-        <div>
+        <div class="faq-title">
           <p class="eyebrow">Häufige Fragen</p>
           <h2>FAQ.</h2>
+          <div class="question-box">
+            <p>Haben Sie weitere Fragen?<br>Wir sind gerne für Sie da.</p>
+            <a href="#kontakt">Kontakt aufnehmen →</a>
+          </div>
         </div>
+
         <div class="faq-list">
           <details>
             <summary>Übernehmen Sie auch die komplette Kurzzeitvermietung?</summary>
@@ -251,39 +292,44 @@
       </div>
     </section>
 
-    <section class="contact" id="kontakt">
+    <section class="contact section" id="kontakt">
       <div class="page contact-grid">
         <div>
           <p class="eyebrow">Kontakt</p>
           <h2>Lassen Sie uns über Ihre Immobilie sprechen.</h2>
-          <p>Sie möchten Ihre Immobilie professionell vermieten oder suchen eine zuverlässige Betreuung? Wir freuen uns, Ihre Situation kennenzulernen und gemeinsam die passende Lösung zu entwickeln.</p>
-          <a class="btn btn-dark" href="mailto:info@geigerimmobilien.ch">Kontakt aufnehmen</a>
+          <p>Ob Sie eine Immobilie vermieten möchten, Fragen zu unseren Leistungen haben oder einfach mehr über uns erfahren wollen – wir freuen uns auf Ihre Kontaktaufnahme.</p>
         </div>
+
         <address>
           <strong>Geiger Immobilien GmbH</strong>
           <span>Kantonsstrasse 158</span>
           <span>8807 Freienbach</span>
           <span>Schweiz</span>
-          <a href="tel:+41764074678">076 407 46 78</a>
-          <a href="mailto:info@geigerimmobilien.ch">info@geigerimmobilien.ch</a>
-          <a href="https://geiger-immobilien.ch">geiger-immobilien.ch</a>
         </address>
+
+        <div class="contact-data">
+          <p><span>Telefon:</span> <a href="tel:+41764074678">076 407 46 78</a></p>
+          <p><span>E-Mail:</span> <a href="mailto:info@geigerimmobilien.ch">info@geigerimmobilien.ch</a></p>
+          <p><span>Web:</span> <a href="https://geiger-immobilien.ch">geiger-immobilien.ch</a></p>
+          <a class="button button-dark" href="mailto:info@geigerimmobilien.ch">Kontakt aufnehmen <span>→</span></a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="page footer-grid">
-      <img src="assets/geiger-logo-header.svg" alt="Geiger Immobilien">
-      <div>
-        <p>Geiger Immobilien GmbH · Kantonsstrasse 158 · 8807 Freienbach</p>
-        <p>Kurzzeitvermietung · Langzeitvermietung · Firmenunterkünfte · Immobilienmanagement</p>
-      </div>
-      <div class="footer-meta">
+    <div class="page footer-main">
+      <img src="assets/geiger-logo.png" alt="Geiger Immobilien">
+      <p>Geiger Immobilien GmbH · Kantonsstrasse 158 · 8807 Freienbach<br>Kurzzeitvermietung · Langzeitvermietung · Firmenunterkünfte · Immobilienmanagement</p>
+      <div class="footer-links">
         <span>Impressum</span>
         <span>Datenschutz</span>
         <a href="#kontakt">Kontakt</a>
       </div>
+    </div>
+    <div class="page footer-bottom">
+      <span>Immobilien in guten Händen.</span>
+      <span>geiger-immobilien.ch</span>
     </div>
   </footer>
 
@@ -294,7 +340,7 @@
       const open = document.body.classList.toggle('menu-open');
       toggle.setAttribute('aria-expanded', String(open));
     });
-    nav?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    nav?.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
       document.body.classList.remove('menu-open');
       toggle?.setAttribute('aria-expanded', 'false');
     }));
