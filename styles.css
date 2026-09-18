@@ -333,6 +333,55 @@ h3{font-weight:400;letter-spacing:-.025em}
 .footer-links{display:flex;gap:14px;color:#6d6e68;font-size:9px}
 .footer-bottom{display:flex;justify-content:space-between;padding:15px 0;border-top:1px solid #ddd9d2;color:#8a8983;font-size:9px}
 
+/* readability refinement */
+.eyebrow{font-size:11px;letter-spacing:.16em}
+.button{font-size:13px}
+.nav{font-size:13.5px}
+.domain{font-size:12.5px}
+
+.hero-subline{font-size:clamp(18px,1.45vw,22px)}
+.hero-copy{font-size:16px;line-height:1.75}
+.hero-note{font-size:10.5px}
+
+.about-copy p:not(.eyebrow){font-size:16.5px;line-height:1.82}
+.highlight{font-size:14.5px}
+.about-caption p{font-size:11px}
+
+.service-card h3{font-size:21px}
+.service-card p,.service-card li{font-size:14px;line-height:1.72}
+
+.intro-copy{font-size:16px;line-height:1.82}
+.values-grid h3{font-size:14px}
+.values-grid p{font-size:14px;line-height:1.7}
+
+.owners-grid>div>p:not(.eyebrow){font-size:16px;line-height:1.82}
+.owner-list span{font-size:10px}
+.owner-list p{font-size:14px}
+
+.process-grid h3{font-size:18px}
+.process-grid p{font-size:14px;line-height:1.7}
+
+.hospitality-grid>div:first-child>p:not(.eyebrow){font-size:16px;line-height:1.82}
+.hospitality-detail p{font-size:11px}
+
+.possibility-head>p{font-size:16px}
+.possibility-card>span{font-size:10.5px}
+.possibility-card h3{font-size:22px}
+.possibility-card p{font-size:14.5px;line-height:1.7}
+
+.question-box p{font-size:14px;line-height:1.65}
+.question-box a{font-size:13px}
+.faq-list summary{font-size:14.5px;line-height:1.5}
+.faq-list p{font-size:14.5px;line-height:1.75}
+
+.contact-grid>div:first-child>p:not(.eyebrow){font-size:15.5px;line-height:1.8}
+.contact address{font-size:14px;line-height:1.7}
+.contact-data{font-size:14px}
+
+.footer-main p{font-size:10.5px;line-height:1.75}
+.footer-links{font-size:10.5px}
+.footer-bottom{font-size:10.5px}
+
 /* responsive */
 @media(max-width:1050px){
   .header-inner{grid-template-columns:200px 1fr 150px}
