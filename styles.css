@@ -598,3 +598,29 @@ h1 em,h2 em{color:#837769}
         rgba(246,241,232,.98) 100%);
   }
 }
+
+
+/* Header logo correction */
+.brand{
+  display:flex;
+  align-items:center;
+  width:max-content;
+  height:100%;
+}
+.brand-image{
+  width:62px;
+  height:62px;
+  object-fit:contain;
+  object-position:center;
+}
+.brand-fallback,
+.brand-fallback[hidden]{
+  display:none !important;
+}
+
+@media(max-width:980px){
+  .brand-image{
+    width:54px;
+    height:54px;
+  }
+}
