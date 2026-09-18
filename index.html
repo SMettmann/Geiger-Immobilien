@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Geiger Immobilien – klar, persönlich und verlässlich." />
+  <title>Geiger Immobilien</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Geiger Immobilien Startseite">
+      <span class="brand-mark">G</span>
+      <span>GEIGER IMMOBILIEN</span>
+    </a>
+
+    <nav class="nav" aria-label="Hauptnavigation">
+      <a href="#unternehmen">Unternehmen</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Immobilienverwaltung</p>
+        <h1>Schlicht.<br>Persönlich.<br>Verlässlich.</h1>
+        <p class="intro">
+          Geiger Immobilien – eine klare Anlaufstelle für Mieter, Partner und Interessierte.
+        </p>
+        <a class="text-link" href="#kontakt">Kontakt <span>↗</span></a>
+      </div>
+
+      <div class="hero-visual">
+        <img
+          src="assets/geiger-immobilie.jpg"
+          alt="Immobilie von Geiger Immobilien"
+          onerror="this.style.display='none'; this.parentElement.classList.add('no-image');"
+        />
+        <div class="image-fallback" aria-hidden="true">
+          <span>GEIGER</span>
+          <strong>IMMOBILIEN</strong>
+          <small>Hier kommt das gewünschte Immobilienfoto hinein.</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="statement" id="unternehmen">
+      <p class="section-number">01</p>
+      <div>
+        <p class="eyebrow">Unternehmen</p>
+        <h2>Immobilienverwaltung ohne unnötige Umwege.</h2>
+        <p>
+          Kurz, übersichtlich und persönlich. Die wichtigsten Informationen und Kontaktmöglichkeiten an einem Ort.
+        </p>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="section-heading">
+        <p class="section-number">02</p>
+        <div>
+          <p class="eyebrow">Portfolio</p>
+          <h2>Immobilien mit Substanz.</h2>
+        </div>
+      </div>
+
+      <div class="portfolio-grid">
+        <article>
+          <span>01</span>
+          <h3>Verwaltung</h3>
+          <p>Persönliche und direkte Betreuung der verwalteten Liegenschaften.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Eigene Immobilien</h3>
+          <p>Ausgewählte Liegenschaften im eigenen Portfolio.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Direkter Kontakt</h3>
+          <p>Kurze Wege für Mieter, Partner und Ansprechpartner.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="kontakt">
+      <p class="section-number">03</p>
+      <div class="contact-copy">
+        <p class="eyebrow">Kontakt</p>
+        <h2>Direkt erreichbar.</h2>
+        <p>
+          Kontaktdaten, Anschrift und weitere Pflichtangaben ergänzen wir nach Rücksprache.
+        </p>
+      </div>
+      <div class="contact-data">
+        <div><span>E-Mail</span><strong>wird ergänzt</strong></div>
+        <div><span>Telefon</span><strong>wird ergänzt</strong></div>
+        <div><span>Adresse</span><strong>wird ergänzt</strong></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Geiger Immobilien</span>
+    <span>geiger-immobilien.ch</span>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
