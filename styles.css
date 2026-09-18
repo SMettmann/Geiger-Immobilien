@@ -206,19 +206,46 @@ h3{font-weight:400;letter-spacing:-.025em}
 /* possibilities */
 .possibilities{background:#fbfaf7}
 .possibility-head{display:grid;grid-template-columns:1.2fr .8fr;gap:70px;align-items:end}
-.possibility-head>p{max-width:500px;color:#6c6d66;font-size:13px;line-height:1.7}
-.possibility-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:38px}
+.possibility-head>p{max-width:520px;color:#6c6d66;font-size:15px;line-height:1.65}
+.possibility-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:14px;
+  margin-top:44px;
+  align-items:stretch;
+}
 .possibility-card{
-  min-height:300px;padding:24px 22px;
-  background:#f2efe9;border:1px solid #e7e4dd;
+  padding:30px 28px 32px;
+  background:#f2efe9;
+  border:1px solid #e2ded6;
 }
-.possibility-card>span{color:#99978f;font-size:9px}
+.possibility-card>span{
+  display:block;
+  color:#99978f;
+  font-size:10px;
+  margin-bottom:26px;
+}
 .possibility-icon{
-  width:42px;height:42px;margin:42px 0 24px;display:grid;place-items:center;
-  border-radius:50%;border:1px solid #c9c5bc;font-size:18px;
+  width:54px;
+  height:54px;
+  margin:0 0 28px;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  border:1px solid #c9c5bc;
+  font-size:21px;
 }
-.possibility-card h3{margin-bottom:12px;font-size:18px}
-.possibility-card p{margin:0;color:#686962;font-size:12px;line-height:1.7}
+.possibility-card h3{
+  margin-bottom:16px;
+  font-size:21px;
+  line-height:1.2;
+}
+.possibility-card p{
+  margin:0;
+  color:#686962;
+  font-size:14px;
+  line-height:1.65;
+}
 
 /* faq */
 .faq{background:#f6f4ef;border-top:1px solid var(--line)}
