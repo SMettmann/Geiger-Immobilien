@@ -415,3 +415,186 @@ h3{font-weight:400;letter-spacing:-.025em}
   .object-grid article:first-child{grid-column:auto}
   .object-image-main{aspect-ratio:4/3}
 }
+
+/* =========================================
+   WARM / LIGHT REDESIGN – September 2026
+   ========================================= */
+:root{
+  --ink:#342f2a;
+  --paper:#f6f1e8;
+  --paper-2:#ece3d6;
+  --white:#fbf8f2;
+  --muted:#766f66;
+  --line:#d8cec0;
+  --dark:#d8cbbb;
+  --warm:#c9b8a3;
+  --warm-soft:#e4d9cc;
+}
+
+/* Header: hell, ruhig, Logo lesbar */
+.site-header{
+  color:var(--ink);
+  background:rgba(246,241,232,.96);
+  border-bottom:1px solid rgba(52,47,42,.12);
+  box-shadow:0 5px 28px rgba(68,55,42,.04);
+  backdrop-filter:blur(14px);
+}
+.nav a{opacity:.72}
+.nav a:hover{opacity:1}
+.header-cta{border-bottom-color:rgba(52,47,42,.55)}
+.brand-image{
+  width:78px;
+  height:54px;
+  filter:none;
+}
+.brand-fallback{color:var(--ink)}
+.menu-toggle{color:var(--ink)}
+
+/* Hero: Bild behalten, aber warm und freundlich statt dunkel */
+.hero{
+  background:#ded4c7;
+}
+.hero-media img{
+  filter:grayscale(35%) sepia(12%) saturate(72%) contrast(.94) brightness(1.03);
+}
+.hero-media.image-missing{
+  background:linear-gradient(135deg,#ede5da,#cfc0af);
+}
+.hero-overlay{
+  background:
+    linear-gradient(to right,
+      rgba(246,241,232,.98) 0%,
+      rgba(246,241,232,.92) 32%,
+      rgba(246,241,232,.68) 53%,
+      rgba(246,241,232,.20) 77%,
+      rgba(246,241,232,.06) 100%),
+    linear-gradient(to top,rgba(239,231,220,.25),transparent 48%);
+}
+h1{color:var(--ink)}
+h1 em,h2 em{color:#837769}
+.hero-subline{color:var(--ink)}
+.hero-text{color:#655e56}
+.eyebrow.light{color:#70675e}
+.scroll-note{color:#6f675f}
+
+.button-light{
+  background:var(--ink);
+  color:#f8f3eb;
+  border-color:var(--ink);
+}
+.button-light:hover{
+  background:#5a5047;
+  color:#fffaf2;
+  border-color:#5a5047;
+}
+.button-ghost-light{
+  color:var(--ink);
+  border-color:rgba(52,47,42,.45);
+  background:rgba(246,241,232,.40);
+}
+.button-ghost-light:hover{
+  background:var(--paper-2);
+  color:var(--ink);
+  border-color:var(--ink);
+}
+
+/* Leistungen: keine schwarze Karte */
+.services-section{background:#fbf8f2}
+.dark-card{
+  background:#d8cbbb;
+  color:var(--ink);
+}
+.dark-card>p{color:#665e55}
+.dark-card .service-no{color:#84796d}
+.light-link{color:var(--ink)}
+
+/* Großes Objektbild: warm und weniger dramatisch */
+.image-break{
+  background:#ddd2c4;
+}
+.image-break>img{
+  filter:grayscale(25%) sepia(10%) saturate(78%) contrast(.94) brightness(1.03);
+}
+.image-break:after{
+  background:
+    linear-gradient(to top,rgba(237,228,216,.92) 0%,rgba(237,228,216,.46) 38%,rgba(237,228,216,.05) 72%);
+}
+.image-break.image-missing{
+  background:linear-gradient(140deg,#e9e0d5,#cdbda9);
+}
+.image-break-copy,
+.image-break-copy h2{color:var(--ink)}
+.image-break-copy .eyebrow.light{color:#70675e}
+
+/* Eigentümer / Hospitality in warmen Naturtönen */
+.owners-section{background:#ece3d6}
+.hospitality-section{
+  background:#d2c2af;
+  color:var(--ink);
+}
+.hospitality-title h2{color:var(--ink)}
+.hospitality-copy p{color:#61584f}
+.hospitality-section .eyebrow.light{color:#70665b}
+
+/* Bilder nicht hart schwarzweiß */
+.object-image img{
+  filter:grayscale(20%) sepia(8%) saturate(80%) contrast(.96);
+}
+.object-image.image-missing,.object-placeholder{
+  background:linear-gradient(135deg,#e7ded2,#cec0ae);
+}
+
+/* FAQ und Kontakt */
+.faq-section{background:#fbf8f2}
+.contact-section{
+  background:#cbb9a4;
+  color:var(--ink);
+}
+.contact-grid h2{color:var(--ink)}
+.contact-intro{color:#5f574f}
+.contact-data{color:#5d554d}
+.contact-data strong{color:var(--ink)}
+.contact-data a{border-bottom-color:rgba(52,47,42,.35)}
+.contact-section .eyebrow.light{color:#675e55}
+.contact-section .button-light{
+  background:var(--ink);
+  color:#fbf7f0;
+  border-color:var(--ink);
+}
+
+/* Footer ebenfalls hell */
+.footer{
+  background:#f1e9df;
+  color:#746b62;
+  border-top:1px solid #d5c9ba;
+}
+.footer strong{color:var(--ink)}
+.footer-links a{color:var(--ink)}
+
+/* Mobile Navigation */
+@media(max-width:980px){
+  .site-header{
+    background:rgba(246,241,232,.97);
+    color:var(--ink);
+  }
+  .nav{
+    background:#f6f1e8;
+    color:var(--ink);
+    border-top:1px solid var(--line);
+  }
+}
+
+@media(max-width:620px){
+  .dark-card{
+    margin-inline:calc(-1 * var(--gutter));
+    padding-inline:var(--gutter);
+    background:#d8cbbb;
+  }
+  .hero-overlay{
+    background:
+      linear-gradient(to bottom,
+        rgba(246,241,232,.82) 0%,
+        rgba(246,241,232,.90) 48%,
+        rgba(246,241,232,.98) 100%);
+  }
+}
