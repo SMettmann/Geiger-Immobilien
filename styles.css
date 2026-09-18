@@ -865,3 +865,23 @@ h1 em,h2 em{color:#837769}
       rgba(246,241,232,.12) 76%,
       rgba(246,241,232,.03) 100%) !important;
 }
+
+
+/* Final hero image clarity */
+.hero-media img,
+.insight-image img{
+  filter:none !important;
+  transform:none !important;
+  backface-visibility:visible !important;
+  image-rendering:auto;
+}
+
+.hero-overlay{
+  background:
+    linear-gradient(to right,
+      rgba(246,241,232,.76) 0%,
+      rgba(246,241,232,.58) 28%,
+      rgba(246,241,232,.28) 52%,
+      rgba(246,241,232,.07) 76%,
+      rgba(246,241,232,.01) 100%) !important;
+}
