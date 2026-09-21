@@ -175,6 +175,7 @@ h3{font-weight:400;letter-spacing:-.025em}
 .about{background:#fbfaf7}
 .about-grid{display:grid;grid-template-columns:1.2fr .85fr;gap:65px;align-items:center}
 .about-copy{max-width:780px}
+.about-title-mobile{display:none}
 .about-copy p:not(.eyebrow){max-width:720px;color:var(--text);font-size:15px;line-height:1.8}
 .highlight{display:block;margin-top:30px;font-size:13px;font-weight:500}
 .about-visual{
@@ -423,6 +424,8 @@ h3{font-weight:400;letter-spacing:-.025em}
 }
 @media(max-width:560px){
   :root{--gutter:20px}
+  .about-title-desktop{display:none}
+  .about-title-mobile{display:inline}
   h1{font-size:43px}
   h2{font-size:34px}
   .hero,.hero-content{min-height:680px}
