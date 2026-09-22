@@ -438,7 +438,7 @@ h3{font-weight:400;letter-spacing:-.025em}
   .footer-main p{text-align:left}
 }
 @media(max-width:560px){
-  .possibility-head{gap:24px}
+  .possibility-head{gap:18px}
   .mobile-break{display:inline}
   .approach-image{display:none !important}
   .approach-grid{gap:0 !important}
