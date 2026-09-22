@@ -12,6 +12,7 @@
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
+.mobile-break{display:none}
 body{
   margin:0;
   background:var(--paper);
@@ -437,6 +438,7 @@ h3{font-weight:400;letter-spacing:-.025em}
   .footer-main p{text-align:left}
 }
 @media(max-width:560px){
+  .mobile-break{display:inline}
   .approach-image{display:none !important}
   .approach-grid{gap:0 !important}
   .approach.section{padding-top:32px !important}
