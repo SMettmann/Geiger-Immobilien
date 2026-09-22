@@ -437,6 +437,10 @@ h3{font-weight:400;letter-spacing:-.025em}
   .footer-main p{text-align:left}
 }
 @media(max-width:560px){
+  .approach-image{display:none !important}
+  .approach-grid{gap:0 !important}
+  .approach.section{padding-top:32px !important}
+
   :root{--gutter:20px}
   .possibility-card{--card-overlay:rgba(246,243,237,.80)}
   .possibility-card:nth-child(4){background-position:88% center}
